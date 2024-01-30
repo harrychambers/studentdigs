@@ -1,0 +1,20 @@
+.bkimg{
+    background-image: url(duncan-kidd.jpg);
+    background-size: 100%;
+}
+
+a.changecol{
+    color: #000000 !important; 
+}
+
+.join{
+    padding-top: 60%;
+    padding-bottom: 20%;
+}
+
+@media screen and (max-width: 890px) {
+    .top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
